@@ -1,7 +1,5 @@
 /*!
-  * Item: Willy Wonka Theme
-  * Description: Personal Portfolio Website Template
-  * Author/Developer: Sujal
+  * 
   * Version: v1
   */
   @import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
@@ -14,11 +12,11 @@
   }
   ::-webkit-scrollbar{
       width: 4px;
-      color:#ff0000;
+      color:#ff3434;
       transition: all .4s ease;
   }
   ::-webkit-scrollbar-thumb {
-      background: #ff0000; 
+      background: #ff3434; 
       border-radius: 4px;
       width: 4px;
       transition: all .4s ease;
@@ -391,7 +389,7 @@
   #breaker{
       height: 100vh;
       width: 200%;
-      background-color: #ff0000;
+      background-color: #ff3434;
       opacity: 1;
       animation: breakeranimate 2s linear;
       display: none;
@@ -411,7 +409,7 @@
       100%{ transform : translateX(100%) }
   }
   .color{
-      color: #ff0000;
+      color: #ff3434;
       transition: all .4s ease;
   }
   #about{
@@ -513,7 +511,7 @@
       font-family: aileron;
       font-weight: 400;
       font-size: 35px;
-      color: #ff0000;
+      color: #ff3434;
       transition: all .4s ease;
   }
   .cv {
@@ -524,7 +522,7 @@
       border:none;
       padding: 15px 30px;
       color: whitesmoke;
-      background: #ff0000;
+      background: #ff3434;
       outline: none;
       font-size:20px;
       font-family: aileron;
@@ -600,14 +598,14 @@
       margin: 20px;
       border-radius: 30%;
       padding: 10px;
-      border: 0px solid #ff0000;
-      background: #ff0000;
-      box-shadow:0px 0px 0px 0px #ff0000 ;
+      border: 0px solid #ff3434;
+      background: #ff3434;
+      box-shadow:0px 0px 0px 0px #ff3434 ;
       height:100px;
       transition: all .8s ease;
   }
   .service:hover .service-img img{
-      box-shadow:0px 0px 0px 400px #ff0000 ;
+      box-shadow:0px 0px 0px 400px #ff3434 ;
   }
   .service-description{
       font-family: poppins;
@@ -691,9 +689,9 @@
       align-items: center;
       justify-content: center;
       transition: all .4s ease;
-      width:82%;
+      width:95%;
       border-radius: 10px;
-      background: #ff0000;
+      background: #ff3434;
   }
   .js-progress{
       position: absolute;
@@ -705,9 +703,9 @@
       font-family: poppins;
       justify-content: center;
       transition: all .4s ease;
-      width:15%;
+      width:72%;
       border-radius: 10px;
-      background: #ff0000;
+      background: #ff3434;
   }
   .adobe-progress{
       position: absolute;
@@ -718,9 +716,9 @@
       align-items: center;
       justify-content: center;
       transition: all .4s ease;
-      width:95%;
+      width:99%;
       border-radius: 10px;
-      background: #ff0000;
+      background: #ff3434;
   }
   .php-progress{
       position: absolute;
@@ -730,11 +728,36 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width:75%;
+      width:70%;
       border-radius: 10px;
-      background: #ff0000;
+      background: #ff3434;
       transition: all .4s ease;
-  
+  }
+  .jquery-progress{
+      position: absolute;
+      top:10%;
+      left:1%;
+      height: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all .4s ease;
+      width:80%;
+      border-radius: 10px;
+      background: #ff3434;
+  }
+  .seo-progress{
+      position: absolute;
+      top:10%;
+      left:1%;
+      height: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width:87%;
+      border-radius: 10px;
+      transition: all .4s ease;
+      background: #ff3434;
   }
   .portfolio-header{
       height: auto;
@@ -793,7 +816,7 @@
       font-family: poppins;
       font-weight: 200;
       padding: 20px;
-      color: #ff0000;
+      color: #ff3434;
       transition: all .4s ease;
   }
   .portfolio-text p{
@@ -810,11 +833,11 @@
       font-weight: 200;
       padding: 10px 20px;
       background:transparent;
-      color:#ff0000;
+      color:#ff3434;
       transition: all .4s ease;
       outline: none;
       margin: 20px;
-      border: 1.5px solid #ff0000;
+      border: 1.5px solid #ff3434;
       cursor: pointer;
       overflow: hidden;
       position: relative;
@@ -829,7 +852,7 @@
       top: 0;
       left: 0;
       z-index: 3;
-      background: #ff0000;
+      background: #ff3434;
       transition: all .7s ease;
   }
   .portfolio-text button:hover{
@@ -860,7 +883,7 @@
       content: "";
       height: 100%;
       width: 100%;
-      background: #ff0000;
+      background: #ff3434;
       opacity: .1;
       top: 0;
       left: 0;
@@ -1287,7 +1310,7 @@
       background: #dd7631;
   }
   .color-red{
-      background: #ff0000;
+      background: #ff3434;
 }
   @keyframes rotate{
       0%{
@@ -2540,3 +2563,4 @@
           transition: all .4s ease;
       }
   }
+
